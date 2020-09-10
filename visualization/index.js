@@ -230,7 +230,7 @@ function launchViz(data){
                // console.log('<img src=Viz/image '+d.Sketchnotes+'.jpg>')	
                div.html('<img src="visualization/Viz/image ('+d.part+').jpg">')	
                   .style("left", (BB.x +10) + "px")		
-                  .style("width", "300px")		
+                  .style("width", "400px")		
                   .style("top", (window.scrollY + BB.y - 35) + "px");	
                })					
                .on("mouseout", function(d) {		
