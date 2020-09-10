@@ -1,3 +1,9 @@
+.imageThumbnail{
+  zoom:19
+}
+
+
+
 body{
     margin: 0;
 }
@@ -95,7 +101,7 @@ nav{
         position: absolute;
         text-align: center;
         display: inline-block;
-        /* width: 100; */
+        width: 100px;
         /* height: 28px; */
         padding: 7px;
         border-radius: 5px;
@@ -105,6 +111,9 @@ nav{
         /* border: solid 0.5px dimgrey; */
         pointer-events: none;
         font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+      }
+      div.tooltip img{
+        width: 100%
       }
 
       nav.nav-center ul {
