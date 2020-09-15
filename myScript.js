@@ -8,6 +8,7 @@ for (var i = 1; i < 104; i++){
     $('.grid').append(`
         <div class="grid-item">
             <img src="hello/image (`+i+`).jpg" />
+            <div class='subCaption'> #`+i+` </div>
         </div>
     `)
     // console.log( `<img src="hello/1 (`+i+`).jpg" />`)
@@ -20,7 +21,7 @@ var $grid = $('.grid').masonry({
     // options
     itemSelector: '.grid-item',
     columnWidth: 200,
-    gutter: 10
+    gutter: 20
 
 });
 
