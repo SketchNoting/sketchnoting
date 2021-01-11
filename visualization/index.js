@@ -228,7 +228,7 @@ function launchViz(data){
                //    .style("left", (BB.x +10) + "px")		
                //    .style("top", (window.scrollY + BB.y - 35) + "px");
                // console.log('<img src=Viz/image '+d.Sketchnotes+'.jpg>')	
-               div.html('<img src="visualization/Viz/image ('+d.part+').jpg">')	
+               div.html('<img src="visualization/Viz/image ('+d.part+').png">')	
                   .style("left", (BB.x + 50) + "px")		
                   .style("width", "400px")		
                   .style("top", (window.scrollY + BB.y - 35) + "px");	

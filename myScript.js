@@ -7,7 +7,7 @@ for (var i = 1; i < 104; i++){
     // console.log('HELLO')
     $('.grid').append(`
         <div class="grid-item">
-            <img src="hello/image (`+i+`).jpg" />
+            <img src="visualization/Viz/image (`+i+`).png" />
             <div class='subCaption'> #`+i+` </div>
         </div>
     `)
