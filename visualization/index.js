@@ -1,41 +1,73 @@
-// var data = [
+var URLlink = ['twitter.com/iamctodd/status/1128098468722040832',
+'twitter.com/MindShiftKQED/status/1130088299173941249',
+'twitter.com/verbistheword/status/1107388945980104707',
+'twitter.com/sherrillknezel/status/1131989750708166656',
+'twitter.com/sainiankur/status/1131206461776891904',
+'twitter.com/sketching4agile/status/1122242400141942784',
+'twitter.com/fero_studio/status/1042357990312095744',
+'twitter.com/chrisspalton/status/1133699084701904896',
+'twitter.com/chrisspalton/status/1133693071739236352',
+'twitter.com/chrisspalton/status/1133665625547640832',
+'twitter.com/Mappletons/status/1134513633596248064',
+'twitter.com/chrisspalton/status/1133685093049020416',
+'twitter.com/malweene/status/1134866239686418432',
+'twitter.com/malweene/status/1134864622085988353',
+'twitter.com/lisi_linhart/status/1134829409859448835',
+'twitter.com/chrisnoessel/status/1134861226893283328',
+'twitter.com/girlie_mac/status/1125871107876081664',
+'twitter.com/imgraceeliz/status/1124340728392507392',
+'twitter.com/lariki/status/1126236626361798657',
+'twitter.com/axbom/status/1131233895993810944',
+'twitter.com/rmnth/status/1134684201553354754',
+'https://twitter.com/jo_heidebrecht/status/1125847359546712064',
+'twitter.com/sketchnotesclub/status/1125766948082548736',
+'twitter.com/Sonia_Sparkles/status/1112647344384868353',
+'twitter.com/LitCoachLady/status/1114570813519355905',
+'twitter.com/evalottchen/status/1135176634934407168',
+'twitter.com/lisihocke/status/1134495949919838209',
+'twitter.com/1077c43n/status/1135831527080779776',
+'twitter.com/ElaVitikainen/status/1134408079779540992',
+'twitter.com/swampmonster/status/1135976796384399360',
+'twitter.com/nmlfonger/status/1136282409887047682',
+'twitter.com/KatjaBudnikov/status/1136299724686942209',
+'twitter.com/holykamote/status/1136232218940981248',
+'twitter.com/wilfredspringer/status/1134408373812768768',
+'twitter.com/5aff/status/1135591208238157827',
+'twitter.com/saurau/status/1136901260827910144',
+'twitter.com/tyhatch/status/1136999421965717506',
+'twitter.com/MsFortsKidsRock/status/1136408960188198913',
+'twitter.com/KTOY2019/status/1137398263764701189',
+'twitter.com/HowardEdTech/status/1135640921100423169',
+'twitter.com/HighScopeUS/status/1133845815871594503',
+'twitter.com/ryan__drago/status/1136710684467744769',
+'twitter.com/gpmortimer/status/1136674136472920069',
+'twitter.com/SuzeShardlow/status/1131257612694097920',
+'twitter.com/degroote44/status/1118635931467227136',
+'twitter.com/martigold/status/1123218094229524480',
+'twitter.com/ramoss/status/1136753048062238720',
+'twitter.com/gpmortimer/status/1138603346623946753',
+'twitter.com/1077c43n/status/1138762353657503744',
+'twitter.com/JonnyDaenen/status/1135633620608180224',
+'twitter.com/davincidiva/status/1136366306465206272',
+'twitter.com/andymcnally/status/1138846438132203521',
+'twitter.com/SummitVChurch/status/1136735744117153794',
+'twitter.com/hi_mischelle/status/1136328129163644928',
+'twitter.com/wilfredspringer/status/1134476920303890432',
+'twitter.com/matteofarinella/status/1114183251050913793',
+'twitter.com/evalottchen/status/1105431352588017664',
+'twitter.com/renetalk/status/1139577667869712385',
+'twitter.com/kirsty_joan/status/1139104471366164480',
+'twitter.com/saurau/status/1136604106083246080',
+'twitter.com/felibe444/status/1139450461310898183',
+'twitter.com/pietvanzoen/status/1138718117004292096',
+'twitter.com/jgough/status/1113991592669376512',
+'twitter.com/rob_choudhury/status/1113818042503397378',
+'twitter.com/ProfVigeant/status/1113584223464460288',
+'twitter.com/lisibo/status/1109056390696501248',
+'twitter.com/calexity/status/1099110287867871232',
+'twitter.com/suribbles/status/1101003142693412864',
+'twitter.com/katiemartinedu/status/1096415172103716867']
 
-//    {"id_": 1, "type": "experience", "Condition":"VR", 'say':'I didnt have much to say'},
-//    {"id_": 2, "type": "experience", "Condition":"VR", 'say':'hello'},
-//    {"id_": 3, "type": "experience", "Condition":"VR", 'say':'hihihihi'},
-//    {"id_": 4, "type": "experience", "Condition":"VR", 'say':'hello'},
-//    {"id_": 1, "type": "experience", "Condition":"2D", 'say':'hello'},
-//    {"id_": 2, "type": "experience", "Condition":"2D", 'say':'hello'},
-
-//    {"id_": 3, "type": "experience", "Condition":"2D"},
-//    {"id_": 4, "type": "experience", "Condition":"2D"},
-//    {"id_": 5, "type": "experience", "Condition":"2D"},
-//    {"id_": 6, "type": "experience", "Condition":"2D"},
-//    {"id_": 7, "type": "experience", "Condition":"2D"},
-//    {"id_": 8, "type": "experience", "Condition":"2D"},
-//    {"id_": 9, "type": "experience", "Condition":"2D"},
-
-//    {"id_": 1, "type": "memory", "Condition":"VR"},
-//    {"id_": 2, "type": "memory", "Condition":"VR"},
-//    {"id_": 3, "type": "memory", "Condition":"VR"},
-//    {"id_": 4, "type": "memory", "Condition":"VR"},
-//    {"id_": 5, "type": "memory", "Condition":"VR"},
-//    {"id_": 6, "type": "memory", "Condition":"VR"},
-
-//    {"id_": 1, "type": "memory", "Condition":"2D"},
-//    {"id_": 2, "type": "memory", "Condition":"2D"},
-//    {"id_": 3, "type": "memory", "Condition":"2D"},
-//    {"id_": 4, "type": "memory", "Condition":"2D"},
-//    {"id_": 1, "type": "memory2", "Condition":"VR"},
-//    {"id_": 2, "type": "memory2", "Condition":"VR"},
-//    {"id_": 3, "type": "memory2", "Condition":"VR"},
-//    {"id_": 4, "type": "memory2", "Condition":"VR"},
-//    {"id_": 5, "type": "memory2", "Condition":"VR"},
-//    {"id_": 1, "type": "memory2", "Condition":"2D"},
-//    {"id_": 2, "type": "memory2", "Condition":"2D"},
-//    {"id_": 3, "type": "memory2", "Condition":"2D"},
-//    {"id_": 4, "type": "memory2", "Condition":"2D"}
-//  ]
 console.log('COUCOU')
 var data_ = []; 
 var idArray = {};
@@ -216,7 +248,12 @@ function launchViz(data){
                // console.log(y(d.type))
                return "translate(-15, " +  (y(d.type)+5)+")"; 
             })
-            .on("mouseover", function(d) {	
+            .on("click", function(d) {	
+               console.log()
+               var urlConcat = "http://" + URLlink[d.Sketchnotes]
+               var win = window.open(urlConcat, '_blank');
+            })
+            /*.on("mouseover", function(d) {	
                
                // console.log(d)
                var BB = d3.select(this).node().getBoundingClientRect();
@@ -228,6 +265,7 @@ function launchViz(data){
                //    .style("left", (BB.x +10) + "px")		
                //    .style("top", (window.scrollY + BB.y - 35) + "px");
                // console.log('<img src=Viz/image '+d.Sketchnotes+'.jpg>')	
+               // div.html('<img src="visualization/Viz/image ('+d.part+').png">')
                div.html('<img src="visualization/Viz/image ('+d.part+').png">')	
                   .style("left", (BB.x + 50) + "px")		
                   .style("width", "400px")		
@@ -237,7 +275,7 @@ function launchViz(data){
                      div.transition()		
                         .duration(0)		
                         .style("opacity", 0);	
-               });
+               });*/
 
 
          // MY BAR ==> GROUP OF BARS
@@ -283,7 +321,8 @@ function launchViz(data){
             .attr('class', 'imageThumbnail')
             .attr("xlink:href", function(d,i){
                // return  "visualization/images/avatar.png";
-               return  "visualization/Viz/image ("+d.part+")Cropped.jpg";
+               // return  "visualization/Viz/image ("+d.part+")Cropped.jpg";
+               return  "visualization/Viz/image ("+ d.part +").png";
             })
             
 
