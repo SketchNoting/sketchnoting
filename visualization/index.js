@@ -358,6 +358,13 @@ function launchViz(data){
                // return  "visualization/Viz/image ("+d.part+")Cropped.jpg";
                return  "visualization/Viz/image ("+ d.part +").png";
             })
+
+         g.append("rect")
+            .attr("class", "bar")
+            .attr("width", 25)
+            .attr("height", 25)
+            .attr('stroke', 'black')
+            .attr("fill", 'none');
             
 
 
