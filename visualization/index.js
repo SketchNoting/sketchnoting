@@ -1,6 +1,7 @@
 var URLlink = ['twitter.com/iamctodd/status/1128098468722040832',
 'twitter.com/MindShiftKQED/status/1130088299173941249',
 'twitter.com/verbistheword/status/1107388945980104707',
+'twitter.com/mslanei/status/1131524544395599872',
 'twitter.com/sherrillknezel/status/1131989750708166656',
 'twitter.com/sainiankur/status/1131206461776891904',
 'twitter.com/sketching4agile/status/1122242400141942784',
@@ -14,38 +15,61 @@ var URLlink = ['twitter.com/iamctodd/status/1128098468722040832',
 'twitter.com/malweene/status/1134864622085988353',
 'twitter.com/lisi_linhart/status/1134829409859448835',
 'twitter.com/chrisnoessel/status/1134861226893283328',
+'twitter.com/Rob_Dimeo/status/1121023032695382016',
 'twitter.com/girlie_mac/status/1125871107876081664',
 'twitter.com/imgraceeliz/status/1124340728392507392',
 'twitter.com/lariki/status/1126236626361798657',
+'twitter.com/ankedesign/status/1129753037457809411',
 'twitter.com/axbom/status/1131233895993810944',
 'twitter.com/rmnth/status/1134684201553354754',
-'https://twitter.com/jo_heidebrecht/status/1125847359546712064',
+'twitter.com/jo_heidebrecht/status/1125847359546712064',
 'twitter.com/sketchnotesclub/status/1125766948082548736',
 'twitter.com/Sonia_Sparkles/status/1112647344384868353',
 'twitter.com/LitCoachLady/status/1114570813519355905',
 'twitter.com/evalottchen/status/1135176634934407168',
+'twitter.com/chrisnoessel/status/1133665911259500545',
 'twitter.com/lisihocke/status/1134495949919838209',
 'twitter.com/1077c43n/status/1135831527080779776',
+'twitter.com/MoLewis1967/status/1132648423654453249',
 'twitter.com/ElaVitikainen/status/1134408079779540992',
 'twitter.com/swampmonster/status/1135976796384399360',
+'twitter.com/pensaardesign/status/1135880687527968770',
+'twitter.com/stephaniecodes/status/1136067563203518464',
+'twitter.com/JeffSannebeck/status/1136289493705666560',
 'twitter.com/nmlfonger/status/1136282409887047682',
+'twitter.com/MrsLedford6Eng/status/1136279762509410304',
 'twitter.com/KatjaBudnikov/status/1136299724686942209',
 'twitter.com/holykamote/status/1136232218940981248',
 'twitter.com/wilfredspringer/status/1134408373812768768',
 'twitter.com/5aff/status/1135591208238157827',
 'twitter.com/saurau/status/1136901260827910144',
+'twitter.com/mrshunt120/status/1136709770407239682',
+'twitter.com/TarahTesmer/status/1136982239827451905',
+'twitter.com/mjbroadbent/status/1136983785612832769',
+'twitter.com/LauraLaQuaglia/status/1136376770645712897',
 'twitter.com/tyhatch/status/1136999421965717506',
+'twitter.com/aboozershealy/status/1137705442317078529',
+'twitter.com/MrsKemper/status/1137167488809144321',
+'twitter.com/MarySci17/status/1137449142270267393',
 'twitter.com/MsFortsKidsRock/status/1136408960188198913',
+'twitter.com/erinmwaring/status/1137460983847366657',
 'twitter.com/KTOY2019/status/1137398263764701189',
 'twitter.com/HowardEdTech/status/1135640921100423169',
 'twitter.com/HighScopeUS/status/1133845815871594503',
+'twitter.com/gavin_scribes/status/1132461942801481729',
+'twitter.com/chiuki/status/1126574956307857408',
 'twitter.com/ryan__drago/status/1136710684467744769',
+'twitter.com/PakGeena/status/1136439867674509312',
+'twitter.com/Med_Utopia/status/1138092704024469505',
 'twitter.com/gpmortimer/status/1136674136472920069',
+'twitter.com/GrundlerArt/status/1121586772197220353',
 'twitter.com/SuzeShardlow/status/1131257612694097920',
 'twitter.com/degroote44/status/1118635931467227136',
 'twitter.com/martigold/status/1123218094229524480',
+'twitter.com/Valeriasketches/status/1137065631185088522',
 'twitter.com/ramoss/status/1136753048062238720',
 'twitter.com/gpmortimer/status/1138603346623946753',
+'twitter.com/MarySci17/status/1138511667480993793',
 'twitter.com/1077c43n/status/1138762353657503744',
 'twitter.com/JonnyDaenen/status/1135633620608180224',
 'twitter.com/davincidiva/status/1136366306465206272',
@@ -54,8 +78,11 @@ var URLlink = ['twitter.com/iamctodd/status/1128098468722040832',
 'twitter.com/hi_mischelle/status/1136328129163644928',
 'twitter.com/wilfredspringer/status/1134476920303890432',
 'twitter.com/matteofarinella/status/1114183251050913793',
+'twitter.com/merielroyal/status/1114124559526105088',
 'twitter.com/evalottchen/status/1105431352588017664',
 'twitter.com/renetalk/status/1139577667869712385',
+'twitter.com/MarySci17/status/1139231609436155904',
+'twitter.com/zobrodesign/status/1050082042904539136',
 'twitter.com/kirsty_joan/status/1139104471366164480',
 'twitter.com/saurau/status/1136604106083246080',
 'twitter.com/felibe444/status/1139450461310898183',
@@ -66,7 +93,14 @@ var URLlink = ['twitter.com/iamctodd/status/1128098468722040832',
 'twitter.com/lisibo/status/1109056390696501248',
 'twitter.com/calexity/status/1099110287867871232',
 'twitter.com/suribbles/status/1101003142693412864',
-'twitter.com/katiemartinedu/status/1096415172103716867']
+'twitter.com/katiemartinedu/status/1096415172103716867',
+'twitter.com/kheiladunkerly/status/1095338710881562624',
+'twitter.com/GenevieveDeBose/status/1073356538729750528',
+'twitter.com/sophdex/status/1062369950566961152',
+'twitter.com/annalena/status/1059025705877540865',
+'twitter.com/JamesDykman/status/1056492449432973313',
+'twitter.com/DrGenever/status/1040198869915713538',
+'twitter.com/pritchardmr/status/1038006079026868224']
 
 console.log('COUCOU')
 var data_ = []; 
@@ -250,32 +284,32 @@ function launchViz(data){
             })
             .on("click", function(d) {	
                console.log()
-               var urlConcat = "http://" + URLlink[d.Sketchnotes]
+               var urlConcat = "http://" + URLlink[d.Sketchnotes-1]
                var win = window.open(urlConcat, '_blank');
             })
-            /*.on("mouseover", function(d) {	
+            // .on("mouseover", function(d) {	
                
-               // console.log(d)
-               var BB = d3.select(this).node().getBoundingClientRect();
-               // console.log(BB)
-               div.transition()		
-                  .duration(0)		
-                  .style("opacity", 1);		
-               // div.html(d.Sketchnotes)	
-               //    .style("left", (BB.x +10) + "px")		
-               //    .style("top", (window.scrollY + BB.y - 35) + "px");
-               // console.log('<img src=Viz/image '+d.Sketchnotes+'.jpg>')	
-               // div.html('<img src="visualization/Viz/image ('+d.part+').png">')
-               div.html('<img src="visualization/Viz/image ('+d.part+').png">')	
-                  .style("left", (BB.x + 50) + "px")		
-                  .style("width", "400px")		
-                  .style("top", (window.scrollY + BB.y - 35) + "px");	
-               })					
-               .on("mouseout", function(d) {		
-                     div.transition()		
-                        .duration(0)		
-                        .style("opacity", 0);	
-               });*/
+            //    // console.log(d)
+            //    var BB = d3.select(this).node().getBoundingClientRect();
+            //    // console.log(BB)
+            //    div.transition()		
+            //       .duration(0)		
+            //       .style("opacity", 1);		
+            //    // div.html(d.Sketchnotes)	
+            //    //    .style("left", (BB.x +10) + "px")		
+            //    //    .style("top", (window.scrollY + BB.y - 35) + "px");
+            //    // console.log('<img src=Viz/image '+d.Sketchnotes+'.jpg>')	
+            //    // div.html('<img src="visualization/Viz/image ('+d.part+').png">')
+            //    div.html('<img src="visualization/Viz/image ('+d.part+').png">')	
+            //       .style("left", (BB.x + 50) + "px")		
+            //       .style("width", "400px")		
+            //       .style("top", (window.scrollY + BB.y - 35) + "px");	
+            //    })					
+            //    .on("mouseout", function(d) {		
+            //          div.transition()		
+            //             .duration(0)		
+            //             .style("opacity", 0);	
+            //    });
 
 
          // MY BAR ==> GROUP OF BARS
